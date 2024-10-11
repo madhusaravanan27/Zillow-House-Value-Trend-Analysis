@@ -1,6 +1,5 @@
 #  **Zillow Sales Trend Analysis**
 
-
 ## **Project Overview**
 
 This project focuses on analyzing Zillow sales data from 2018 to February 2024 to uncover underlying trends and make future predictions for the U.S. housing market. By applying advanced analytical methods such as ARIMA, K-Nearest Neighbors (KNN) Regressor, and Convolutional Neural Network (CNN) models, this project offers insights into the factors influencing housing value trends and provides data-driven recommendations for real estate stakeholders.
@@ -8,7 +7,7 @@ This project focuses on analyzing Zillow sales data from 2018 to February 2024 t
 ## **Data Sources**
 
 - **Zillow Sales Data**:
-- Obtained from the official Zillow platform, including property trends, market insights, and historical sales data from 2018 to February 2024.
+  Obtained from the official Zillow platform, including property trends, market insights, and historical sales data from 2018 to February 2024.
 
 ## **Key Objectives**
 
@@ -17,6 +16,22 @@ This project focuses on analyzing Zillow sales data from 2018 to February 2024 t
 2. **Develop accurate forecasts** for future movements in the housing market.
    
 3. **Provide actionable insights** for real estate investors, homeowners, and other stakeholders to navigate the real estate landscape effectively.
+
+## **Technologies Used**
+
+- **Python**: Main programming language used for analysis and model building.
+  
+- **Pandas/Numpy**: For data manipulation and preparation.
+  
+- **Matplotlib/Seaborn**: For data visualization and creating exploratory analysis charts.
+  
+- **Scikit-learn**: For building the K-Nearest Neighbors (KNN) regressor and evaluating model performance.
+  
+- **Statsmodels**: For implementing the ARIMA model in time series forecasting.
+  
+- **Keras/TensorFlow**: For building and training the Convolutional Neural Network (CNN) for time series prediction.
+  
+- **Jupyter Notebook**: Interactive environment used for code development and analysis.
 
 ## **Analysis Overview**
 
@@ -46,8 +61,7 @@ This project focuses on analyzing Zillow sales data from 2018 to February 2024 t
 
 - Developed a KNN Regressor model to predict housing prices based on historical data.
   
-- **Model Evaluation**:
-Performance was evaluated using metrics like Mean Absolute Error (MAE) and Root Mean Squared Error (RMSE), with an MAE of 6.56 and RMSE of 10.04, indicating good predictive accuracy.
+- **Model Evaluation**: Performance was evaluated using metrics like Mean Absolute Error (MAE) and Root Mean Squared Error (RMSE), with an MAE of 6.56 and RMSE of 10.04, indicating good predictive accuracy.
 
 ### **3. Convolutional Neural Network (CNN)**
 
